@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+.fake-body{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* base.html */
 header {
   display: flex;
