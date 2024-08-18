@@ -8,6 +8,10 @@ Bem-vindo ao Django User Registration! Este é um projeto simples para gerenciar
 
 Este projeto foi criado como uma experiência inicial com Django, visando aprender e dominar a ferramenta. O objetivo final é aplicar esse conhecimento no desenvolvimento de um sistema para o Serviço de Psicologia Aplicada da UFF Rio das Ostras.
 
+O projeto passou por uma refatoração afim de aplicar novos conhecimentos adquiridos de css e para deixar a interface mais amigável. Confira a Wiki do projeto também!! Lá tem mais informações sobre as mudanças.
+
+📷 [Comparação com Prints](https://github.com/BelleVimercati/User_Registration/wiki/Comparacao)
+
 **Ficou curioso?** Pode dar uma olhadinha em como ficou no [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7227479293390409728/)
 
 ### 🛠️ Tecnologias utilizadas
