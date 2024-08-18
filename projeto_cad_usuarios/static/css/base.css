@@ -65,6 +65,7 @@ header {
   transition: filter;
 }
 
+
 .navbar-nav li:hover a .icon {
   filter: invert(63%) sepia(60%) saturate(3312%) hue-rotate(193deg) brightness(103%) contrast(104%);
 }

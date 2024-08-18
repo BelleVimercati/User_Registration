@@ -8,4 +8,6 @@ urlpatterns = [
     path('', views.home,name='home' ), #vazio pois é pagina inicial
 
     path('usuarios/', views.usuarios, name='listagem_usuarios'), #precisamos usar o mesmo nome que colocamos no html referenciando a página no form -> action 
+
+    path('limpar-banco/', views.limpar_banco, name='limpar_banco'), 
 ]
