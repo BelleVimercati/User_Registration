@@ -1,7 +1,14 @@
 {% extends 'usuarios/base.html' %}
 {% block conteudo %}
+{% load static %}
 <div class="container">
-    <h1>Usuários Cadastrados</h1>
+    <div class="table-header">
+    <h1 class="table-title">📑 Usuários Cadastrados</h1>
+    <form action="{% url 'limpar_banco' %}" method="POST">
+        {% csrf_token %}
+        <button type="submit" class="button-cleaner">🗑️</button>
+    </form>
+    </div>
     <table class="table table-bordered table-striped">
         <tr>
             <th>id</th>
@@ -17,5 +24,8 @@
         </tr>
         {% endfor %}
     </table>
+
+    
+
 </div>
 {%endblock%}
